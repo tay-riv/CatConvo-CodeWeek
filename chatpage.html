@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Live chat room</title>
+        <link rel="stylesheet" href="chatstyle.css">
+    </head>
+    <body>
+        <div class="infobar">
+            <div class="top">
+                <div class="contact">
+                    <div class="toppic">
+                        <img src="images/catone.jpg"
+                        width="55" />
+                    </div>
+                    <h1>Grumpy Cat</h1>
+                </div>
+                <div class="online">
+                    <em><p>(online)</p></em>
+                </div>
+            </div>
+        </div>
+            
+        <div class="main">   <!-- Messages/Bubbles start here -->
+            <div class="message one">
+                <div class="bubble first">
+                    <p>Ugh, I am so exausted. I only slept for 17 hours today.</p>
+                </div>
+                    <div class="right-tri-one"></div>
+                    <div class="read uno">
+                        <em><span>Read 12:04 pm</span></em>
+                    </div>
+                <img src="images/cattwo.jpg" 
+                 width="85" />
+            </div>
+
+            <div class="message two">
+                <img src="images/catone.jpg"
+                width="85" />
+                <div class="read dos">
+                     <em><span>Read 12:09 pm</span></em>
+                </div>
+                <div class="left-tri"></div>
+                <div class="bubble second">
+                    <p>That sounds awful. Why don't you take a cat nap?</p>
+                </div>
+            </div>
+
+        
+            <div class="message three">
+                <div class="bubble third">
+                    <p>I was going to, but I forgot that I have to sprint around the flat today and scream outside my flatmate's door for an hour first.</p>
+                </div>
+                    <div class="right-tri-one"></div>
+                    <div class="read tres">
+                        <em><span>Sent 12:13 pm</span></em> 
+                    </div>
+                 <img src="images/cattwo.jpg" 
+                    width="85" />
+            </div>´
+
+        </div>
+
+
+
+        <div class="typebar">
+            <div class="typebox">
+                 <input type="text"
+                    onfocus="this.value=''"
+                     placeholder="  Message ..."
+                     id="type">
+            </div>
+            <div class="send">
+                <button onclick="document.getElementById('type').value = ''">SEND</button>
+            </div>
+        </div>
+    </body>
+</html>
